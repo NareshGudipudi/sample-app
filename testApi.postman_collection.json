@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "f68ac914-3672-4f9c-9b1f-613807a7d040",
+		"name": "testApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "sampleApp",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/getAddress?address=3350 OSSIPEE HOLINESS CHURCH ROAD",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"getAddress"
+					],
+					"query": [
+						{
+							"key": "address",
+							"value": "3350 OSSIPEE HOLINESS CHURCH ROAD"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "persistData",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/invokejob",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"invokejob"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
+
